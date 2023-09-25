@@ -1,0 +1,56 @@
+/*Schrijf hier jouw CSS*/
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis:100vw ;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-main-3 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.col-1 {
+    flex-direction: row;
+    flex-basis: 50vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex-header-3 {
+
+    flex-basis: 20vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex-article-3 {
+    flex-basis: 80vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-footer-3 {
+    flex-basis: 20vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex-aside-3 {
+    flex-basis:20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
